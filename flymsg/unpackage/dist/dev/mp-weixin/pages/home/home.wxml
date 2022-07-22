@@ -1,0 +1,1 @@
+<view><view>{{''+message+''}}</view><view><view class="_ul"><block wx:for="{{person}}" wx:for-item="p" wx:for-index="__i0__" wx:key="id"><view class="_li">{{'姓名'+p.name+" 年龄"+p.age+''}}</view></block></view><button type="primary" data-event-opts="{{[['tap',[['test',['$event',666]]]]]}}" bindtap="__e">点击</button></view></view>
