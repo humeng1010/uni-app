@@ -1,1 +1,0 @@
-<view><view>这是列表页</view><view class="box-item"><view class="_ul"><block wx:for="{{list}}" wx:for-item="l" wx:for-index="index" wx:key="index"><view class="_li">{{l}}</view></block></view></view><button type="primary" data-event-opts="{{[['tap',[['refreshList',['$event']]]]]}}" bindtap="__e">刷新列表</button></view>

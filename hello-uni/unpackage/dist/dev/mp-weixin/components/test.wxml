@@ -1,0 +1,1 @@
+<view>这是test组件<view><text>{{"父组件传递的"+age}}</text></view><view><button data-event-opts="{{[['tap',[['sendValue',['$event']]]]]}}" bindtap="__e">点击我给父组件传值自定义事件1@</button><button data-event-opts="{{[['tap',[['sendValue2',['$event']]]]]}}" bindtap="__e">点击我给父组件传值自定义事件2ref</button></view></view>

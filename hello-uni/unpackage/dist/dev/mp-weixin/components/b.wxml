@@ -1,0 +1,1 @@
+<view><button data-event-opts="{{[['tap',[['sendData',['$event']]]]]}}" bindtap="__e">点击我(兄弟传值)</button></view>

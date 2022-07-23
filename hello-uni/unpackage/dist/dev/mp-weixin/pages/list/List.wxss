@@ -1,0 +1,6 @@
+
+.box-item ._li {
+	height: 750px;
+	/* line-height: 100px; */
+}
+
